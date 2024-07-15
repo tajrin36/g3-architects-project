@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 150px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+/* navbar styles */
+.head{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+}
+.nav-items{
+    list-style: none;;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 400;
+    font-size:medium;
+    color: rgba(66, 66, 66, 1);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.brand{
+    font-size:1.9rem;
+    font-weight: bolder;
+    color: rgba(19, 19, 19, 1);
+}
+/* banner styles */
+.banner{
+    max-width: 1300px ;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.image{
+    width: 100%;
+}
+.banner-heading{
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banner-para{
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: rgba(114, 114, 114, 1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* main */
+/* features styles */
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.teams{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.image-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.feature-container{
+    max-width: 350px;
+}
+.feature-container>h3,p,button{
+    margin-bottom: 15px;
+}
+.feature-container>p{
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: rgba(114, 114, 114, 1);
+}
+.quick{
+    font-size:1.9rem;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+}
+.of{
+    color: rgba(19, 19, 19, 1);
+    font-weight: 700;
+    font-size:1.9rem;
+}
+.fea{
+    color: rgba(255, 144, 14, 1);
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+/* features styles */
+.feature-card-image-container{
+    display: flex;
+    gap: 100px;
+    /* border: 1px solid black; */
+    margin-bottom: 30px;
+}
+
+.feature-head{
+    color: rgba(19, 19, 19, 1);
+    font-weight: 700;
+    font-size:1.9rem;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 15px;
+}
+.feature-subhead{
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: rgba(114, 114, 114, 1);
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.features-left{
+    max-width: 450px;
+    padding: 10px;
+    /* border: 1px solid black; */
+
+}
+.feature-card{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.feature-card-head{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgba(19, 19, 19, 1);
+    margin-bottom: 10px;
+}
+.feature-card-para{
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: rgba(114, 114, 114, 1);
+}
+.image-feature{
+    height: 850px;
+    width: 100%;
+}
+.Experience-badge{
+    padding: 40px 42px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    border: none;
+    border-radius: 8px;
+    margin-left: -60px;
+    margin-top: -100px;
+    
+}
+.Experience-years{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.facts-heading{
+    color: rgba(19, 19, 19, 1);
+    font-weight: 700;
+    font-size:1.9rem;
+    margin-bottom: 10px;
+}
+.some-facts{
+padding: 20px;
+}
+.facts-para{
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: rgba(114, 114, 114, 1);
+}
+.facts-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 45px;
+    /* border: 1px solid black; */
+    gap: 50px;
+    
+}
+.cards{
+    border: 1px solid rgba(255, 144, 14, 1);
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.icon-heading{
+    color: rgba(66, 66, 66, 1);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.icon-subheading{
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: rgba(114, 114, 114, 1);
+}
+.hide{
+    display: none;
+}
+
+.sponspors-heading{
+    color: rgba(19, 19, 19, 1);
+    font-weight: 700;
+    font-size:1.9rem;
+    margin-bottom: 10px;
+}
+.sponspors-para{
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: rgba(114, 114, 114, 1);
+}
+.sponspor-info{
+    max-width: 450px;
+    margin: 30px auto;
+    text-align: center;
+}
+.sponspors-icons{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-bottom: 70px;
+}
+.sponspors-icons>img{
+    filter: grayscale(100%);
+}
+/* responsive media queries for header section */
+@media screen and (max-width:576px) {
+    .navbar,
+    .nav-links,
+    .teams,
+    .feature-card-image-container
+    {
+        flex-direction: column;
+    }
+    .image-container,
+    .facts-cards,
+    .sponspors-icons{
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+        justify-items: center;
+    }
+    .facts-cards{
+        justify-items: center;
+    }
+    .Experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .features-left{
+        width: 100%;
+        padding: 0px;
+    }
+    .image-feature{
+        width: 100%;
+    }
+}
+
+.footer{
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: rgba(255, 244, 231, 1);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.footer-para{
+    color: rgba(66, 66, 66, 1);
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-top: 15px;
+    
+    
+    
+
+}
+/* for medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    .teams{
+        flex-direction: column;
+    }
+    .sponspors-icons{
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+        justify-items: center;
+    }
+}
